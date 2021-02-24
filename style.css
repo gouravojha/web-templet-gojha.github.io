@@ -1,0 +1,109 @@
+#header{
+    color: gold;
+    background-color: rgb(19, 18, 17);
+}
+#menu{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+#menu li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#menu li a{
+    padding: 5px 5px;
+}
+#logo{
+    padding: 1px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu li:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+#logo:hover{
+    color: rgb(249, 255, 163);
+    cursor: pointer;
+    animation-delay: 2s;
+}
+.banner{
+    background: url("images/tech.jpg") no-repeat 0 0;
+    background-size: cover;
+    padding: 50px;
+}
+.banner-title{
+    color: white;
+    font-size: larger;
+    border: 2px dashed pink;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section-head{
+    text-align: center;
+    padding: 20px;
+    margin-right: 50px;
+}
+.service-box{
+    text-align: center;
+    padding: 10px;
+}
+.service-box i.fa{
+    color: rgba(214, 184, 16, 0.856);
+}
+.service-box i.fa:hover{
+    cursor: pointer;
+    color: black;
+}
+.section h2.section-head::after{
+    background-color: gold;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin-left: 46%;
+    margin-top: 10px;
+}
+.team-head{
+    text-align: center;
+    padding: 20px;
+    margin-right: 50px; 
+    margin-top: 1%;   
+}
+.team h2.team-head::after{
+    background-color: gold;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin-left: 46%;
+    margin-top: 10px;
+}
+.team .card{
+    display: block;
+    justify-content: center;
+}
+.team .card:hover{
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(63, 54, 54);
+    color: rgba(235, 202, 11, 0.979);
+    font-size: large;
+    margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: gold;
+}
+.testimonial{
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+.newspost{
+    padding: 10px;
+}
